@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Project from './components/Project';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Aboutme from './components/AboutMe';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navigation />
-    <Project />
+    <Header/>
+    <Aboutme/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
