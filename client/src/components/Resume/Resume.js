@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div>
       <button className="download">
-        <i class="fa fa-download"></i> Download Resume
+       Download Resume
       </button>
       <h2> Front-end </h2>
       <ul className="list">
